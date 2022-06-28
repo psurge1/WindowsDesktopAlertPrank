@@ -5,6 +5,7 @@ do
 	End If
 loop
 
-for i = 0 to 10
+N = 10
+for i = 0 to N ' If changed to a do loop or N is changed to a larger number, program can potentially use all of desktop's RAM 
 	CreateObject("WScript.Shell").Run "funny.bat"
 Next
