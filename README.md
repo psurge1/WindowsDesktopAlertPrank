@@ -8,4 +8,4 @@
     -  All images can be closed by right clicking on Photo Viewer and clicking 'Close all windows'
     -  Even though the alert box disappears, it will still be running in the background. Be sure to end it in Task Manager.
 
-## **Use at your own risk.**
+### **Use at your own risk.**
