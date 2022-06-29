@@ -1,1 +1,1 @@
-img.png
+image.png
