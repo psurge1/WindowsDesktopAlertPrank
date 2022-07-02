@@ -1,6 +1,6 @@
 set N=10
-set count=0
+set COUNT=0
 :loop
-    set /a count=%count%+1
+    set /a COUNT=%COUNT%+1
     img.png
-if %count% neq %N% goto loop
+if %COUNT% neq %N% goto loop
