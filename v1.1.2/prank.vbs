@@ -15,7 +15,7 @@ Loop until I = Attempts
 
 If not Passed then
 	N = 10
-	for I = 0 to N ' If changed to a do loop or N is changed to a larger number, program can potentially use all of desktop's RAM 
+	For I = 0 To N ' If changed to a do loop or N is changed to a larger number, program can potentially use all of desktop's RAM 
 		CreateObject("WScript.Shell").Run "img.bat"
 	Next
 End If
