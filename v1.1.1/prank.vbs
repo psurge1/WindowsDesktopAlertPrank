@@ -2,7 +2,7 @@ Password = "dog"
 Passed = False
 Attempts = 2
 For I = 0 To Attempts
-	AttemptPassword = InputBox("Your computer has been hacked, Enter password to prevent hack", "Urgent Warning!  Password Attempts Left: " & Attempts - i + 1)
+	AttemptPassword = InputBox("Your computer has been hacked, Enter password to prevent hack", "Urgent Warning!  Password Attempts Left: " & Attempts - I + 1)
 	If AttemptPassword = Password Then
 		Passed = True
 		Exit For

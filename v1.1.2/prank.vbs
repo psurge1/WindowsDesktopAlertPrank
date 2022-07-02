@@ -4,7 +4,7 @@ Attempts = 3
 I = 0
 
 Do
-	AttemptPassword = InputBox("Your computer has been hacked, Enter password to prevent hack", "Urgent Warning!  Password Attempts Left: " & Attempts - i)
+	AttemptPassword = InputBox("Your computer has been hacked, Enter password to prevent hack", "Urgent Warning!  Password Attempts Left: " & Attempts - I)
 	If AttemptPassword = Password Then
 		Passed = True
 		Exit Do
